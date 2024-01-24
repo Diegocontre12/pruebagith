@@ -1,14 +1,19 @@
-comandos git 
+//creacion y configurancion del repositorio local 
+gitcomandos git 
 cd mas carpeta //carpeta para el git )
 git init //inicializar repositorio)
 git config user.name (usuario github) //oara configurar el usuario)
 git config user.email (usuario github correo)//para gaurdar correo 
 git remote add (nombre(en lo posible origin)) url //esto es para cuadrar el reporemoto)
-git status // estado del repo ver archivos etc 
+git status // estado del repo ver archivos etc
+// añadir archivo al repo 
 git add (nombre archivo) // agregar archivo al repo 
 git comit -m ("mensaje") // asegurar la subida del archivo a la repo
 git push -u (nombre reporemoto)(nombre rama en este caso master o main )//subir la rama al repo 
+// sacar archvio
 git clone  (url repo )// clonar todo el repo 
 git pull (nombre reposremoto)(nombrerama)// traer los archivos del repo remoto al local 
+// branches 
+git branch // muestra eb que branch estamos 
 
 
