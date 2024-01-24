@@ -13,7 +13,14 @@ git push -u (nombre reporemoto)(nombre rama en este caso master o main )//subir 
 // sacar archvio
 git clone  (url repo )// clonar todo el repo 
 git pull (nombre reposremoto)(nombrerama)// traer los archivos del repo remoto al local 
-// branches 
-git branch // muestra eb que branch estamos 
-
-
+// branches cofigs
+git branch // muestra en que branch estamos
+git branch (nombre rama) // creacion de rama  
+git branch -m (nombre actual)(nuevo nombre)// cambiar nombre rama 
+git checkout(nombre rama)// cambiar de rama 
+git branch -d (nombre rama) // eliminar rama 
+// branches files 
+git touch (nombre archivo) // crear archivo en una rama 
+git add . // añadir archivo en la rama 
+git diff (nombre rama1)(nombre rama2)// comapara los archivos que hay entre cada rama 
+git merge(ramaorigen)(ramadestino)// unificar ramas nota estar ne l arama que recibe los cambios 
